@@ -1,5 +1,11 @@
+import Navigation from "./components/Navigation";
+
 function App() {
-  return <></>;
+  return (
+    <div className="scroll-smooth">
+      <Navigation />
+    </div>
+  );
 }
 
 export default App;
