@@ -5,6 +5,13 @@
   --breakpoint-mb: 375px;
   --breakpoint-tb: 768px;
   --breakpoint-dk: 1440px;
+
+  --color-connect: linear-gradient(
+    90deg,
+    rgba(223, 137, 8, 1) 0%,
+    rgba(180, 21, 255, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
 }
 
 body {
@@ -18,4 +25,22 @@ html {
 
 .connect-button {
   background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+}
+
+.main-text {
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.highlight {
+  background: none !important;
+  -webkit-background-clip: initial !important;
+  -webkit-text-fill-color: white !important;
+  color: white !important;
 }
