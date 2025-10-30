@@ -13,7 +13,7 @@ export default function Home() {
         </div>
         <div className="main-info flex flex-col items-center justify-center">
           <div className="first-text flex justify-center">
-            <h1 className="main-text mb:w-[80%] text-center text-[#b415ff] mb:text-[30px] tb:text-[48px] dk:text-[65px] text-bold">
+            <h1 className="main-text mb:w-[80%] text-center mb:text-[30px] tb:text-[48px] dk:text-[65px] text-bold">
               I'm Nick Nishnianidze,
               <span className="highlight text-white">
                 {" "}
@@ -29,10 +29,10 @@ export default function Home() {
           </p>
         </div>
         <div className="buttons flex flex-row justify-center w-full gap-[30px]">
-          <button className="bg-[linear-gradient(90deg,rgba(223,137,8,1)_0%,rgba(180,21,255,1)_50%,rgba(252,176,69,1)_100%)] text-white text-bold text-[18px] none py-[20px] rounded-[50px] cursor-pointer w-[178px]">
+          <button className="bg-[linear-gradient(90deg,rgba(223,137,8,1)_0%,rgba(180,21,255,1)_50%,rgba(252,176,69,1)_100%)] text-white text-bold text-[18px] none py-[20px] rounded-[50px] cursor-pointer w-[178px] hover:border-[2px] hover:border-white transition-transform duration-300 ease-in-out hover:scale-105 hover:bg-blue-700">
             Connect with me
           </button>
-          <button className="py-[20px] rounded-[50px] cursor-pointer w-[178px] text-white text-bold text-[18px] border-[2px] border-white cursor-pointer">
+          <button className="py-[20px] rounded-[50px] cursor-pointer w-[178px] text-white text-bold text-[18px] border-[2px] border-white cursor-pointer  transition-transform duration-300 ease-in-out hover:border-[2px] hover:border-[#FFC0CB] hover:scale-105">
             My resume
           </button>
         </div>
